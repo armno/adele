@@ -7,7 +7,8 @@ export class SecretService {
       tenant: 'armno.onmicrosoft.com',
       clientId: '93310a66-c46e-4c83-8e96-fd44085afd67',
       redirectUri: window.location.origin + '/welcome',
-      postLogoutRedirectUri: window.location.origin + '/'
+      postLogoutRedirectUri: window.location.origin + '/',
+      cacheLocation: 'localStorage'
     };
   }
 }
