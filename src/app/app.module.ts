@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { AdalService } from 'ng2-adal/core';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    AdalService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
