@@ -24,4 +24,8 @@ export class WelcomeComponent implements OnInit {
     this.user = this.adalService.userInfo;
   }
 
+  logout() {
+    this.adalService.logOut();
+  }
+
 }
