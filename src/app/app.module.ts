@@ -1,3 +1,4 @@
+import { SecretService } from './secret.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -20,7 +21,8 @@ import { AdalService } from 'ng2-adal/core';
     AppRoutingModule
   ],
   providers: [
-    AdalService
+    AdalService,
+    SecretService
   ],
   bootstrap: [AppComponent]
 })
