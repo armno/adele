@@ -7,14 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { ProfileComponent } from './profile/profile.component';
 import { AdalService } from 'ng2-adal/core';
 import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent,
+    ProfileComponent,
     LoginComponent
   ],
   imports: [

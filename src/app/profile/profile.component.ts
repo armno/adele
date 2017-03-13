@@ -3,11 +3,11 @@ import { AdalService } from 'ng2-adal/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css']
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css']
 })
-export class WelcomeComponent implements OnInit {
+export class ProfileComponent implements OnInit {
 
   user: any;
 
