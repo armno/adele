@@ -1,3 +1,8 @@
 <p>
-  welcome works!
+  Welcome,
+  <strong>
+    {{ user.profile.given_name + ' ' + user.profile.family_name }}
+  </strong>
 </p>
+
+<pre>{{ user.profile | json }}</pre>

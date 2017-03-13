@@ -1,3 +1,4 @@
+import { LoginComponent } from './../login/login.component';
 import { LoginGuard } from './../login.guard';
 import { WelcomeComponent } from './../welcome/welcome.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +11,10 @@ export const appRoutes: Routes = [
     canActivate: [
       LoginGuard
     ]
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   }
 ];
 
